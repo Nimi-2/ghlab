@@ -5,8 +5,7 @@ name: gha_example:GitHub Action exercise
 on:
   #workflow_dispatch:
   push:
-   branches: 
-     - "main"
+   branches: [main]
 
 jobs:
   build:
@@ -41,5 +40,5 @@ jobs:
           file: ./Dockerfile_prod
           push: true
           tags: |
-            nimi22/zgh:zgh
+            nimi22/ghlab:zgh
       

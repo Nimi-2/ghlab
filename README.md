@@ -1,4 +1,4 @@
-# Laboratorium
+# Laboratorium 10
 
 Użyte komendy: <br>
 git add . && git commit -m "z" <br>
